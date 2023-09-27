@@ -16,6 +16,7 @@
 		EC318F2F2AC4AB09002CACE4 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC318F2E2AC4AB09002CACE4 /* ChartsView.swift */; };
 		EC318F312AC4ADB8002CACE4 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC318F302AC4ADB8002CACE4 /* Gender.swift */; };
 		EC318F332AC4ADD7002CACE4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC318F322AC4ADD7002CACE4 /* Book.swift */; };
+		EC318F352AC4AFD4002CACE4 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC318F342AC4AFD4002CACE4 /* Library.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EC318F2E2AC4AB09002CACE4 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		EC318F302AC4ADB8002CACE4 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		EC318F322AC4ADD7002CACE4 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		EC318F342AC4AFD4002CACE4 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		EC318F272AC4AAB4002CACE4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				EC318F342AC4AFD4002CACE4 /* Library.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				EC318F332AC4ADD7002CACE4 /* Book.swift in Sources */,
 				EC318F182AC4AA65002CACE4 /* BookManagerApp.swift in Sources */,
 				EC318F2D2AC4AAFE002CACE4 /* NewBookView.swift in Sources */,
+				EC318F352AC4AFD4002CACE4 /* Library.swift in Sources */,
 				EC318F292AC4AAE2002CACE4 /* AppView.swift in Sources */,
 				EC318F2F2AC4AB09002CACE4 /* ChartsView.swift in Sources */,
 			);

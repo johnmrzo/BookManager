@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AppView: View {
+  var library = Library()
   var body: some View {
     TabView {
       LibraryView()
@@ -28,6 +29,7 @@ struct AppView: View {
           Text("Charts")
         }
     }
+    .environmentObject(library)
   }
 }
 
