@@ -24,8 +24,9 @@ struct LibraryView: View {
 }
 
 struct LibraryView_Previews: PreviewProvider {
+  static var library = Library()
     static var previews: some View {
-      LibraryView()
+      LibraryView().environmentObject(library)
     }
 }
 
