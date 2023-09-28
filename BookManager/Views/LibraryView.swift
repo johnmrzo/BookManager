@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct LibraryView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+  @EnvironmentObject var library: Library
+  var body: some View {
+    NavigationView {
+         List{
+           ForEach(library.books) { book in
+             BookRowView(book: book)
+           }.onDelete(perform: removeRows)
+         }.navigationBarTitle("Library")
+       }
     }
+  private func removeRows(at offsets: IndexSet) {
+          library.books.remove(atOffsets: offsets)
+      }
 }
 
 struct LibraryView_Previews: PreviewProvider {
